@@ -50,7 +50,7 @@ end
 plot(V(:,1),V(:,2),c_diagrama)
 xlabel('X(m)')
 ylabel('V(N)')
-title('Diagrama de cortante')
+title('Shear Diagram')
 hold on
 
 %% Grafica el elemento del color deseado con un espesor de linea mas grande

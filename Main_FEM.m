@@ -51,10 +51,10 @@ Frontera = 'matrices/boundary_conditions.txt';
 Fuerzas = 'matrices/forces.txt';
 
 %% Tipo de estructura y factor de multiplicacion
-tipo_estructura = menu('Select structure type','Portico','Truss');
-%Fescalar = str2double(inputdlg('Ingrese el factor multiplicador de los desplazamientos','Factor Multiplicador'));
+tipo_estructura = menu('Select structure type','Frame','Truss');
+%Fescalar = str2double(inputdlg('Enter the sacling factor to plot the displacements','Scaling factor'));
 
-[N,E,B,F] = gen_matrices(Nodos,Elementos,Frontera,Fuerzas); %La función lee los archivos y guarda las matrices
+[N,E,B,F] = gen_matrices(Nodos,Elementos,Frontera,Fuerzas); %La funciï¿½n lee los archivos y guarda las matrices
 
 
 %% calculando la mtriz de rigidez global del elemento

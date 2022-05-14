@@ -120,7 +120,7 @@ global Fuerzas_elementos
 Elemento_i = get(handles.pop_elementos,'Value');
 
 %% Para facilitar la lectura de resultados
-e = sprintf('Fuerzas en coordenadas globales del elemento %d',Elemento_i);
+e = sprintf('Forces in Global Coordinates for Element %d',Elemento_i);
 
 %% Se asignan los datos a las tablas y se activa la visibilidad
 set(handles.c_globales,'data',Fuerzas_elementos{Elemento_i})
@@ -139,7 +139,7 @@ global Fuerzas_L
 
 Elemento_i = get(handles.pop_elementos,'Value');
 
-e = sprintf('Fuerzas en coordenadas locales del elemento %d',Elemento_i);
+e = sprintf('Forces in Local Coordinates for Element %d',Elemento_i);
 
 %% Aqui se elimina la primera columna
 Fuerza = Fuerzas_L{Elemento_i};

@@ -41,7 +41,7 @@ M = [inicial;c1;c2;n2];
 plot(M(:,1),M(:,2),c_diagrama)
 xlabel('X(m)')
 ylabel('M(N.m)')
-title('Diagrama de momentos')
+title('Bending Moment Diagram')
 hold on
 
 %% Grafica el elemento del color deseado con un espesor de linea mas grande

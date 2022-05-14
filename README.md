@@ -1,4 +1,4 @@
-# Finite Element Solver for Truss and Porticos
+# Finite Element Solver for Truss and Fames
 
 
 ## Instructions:
@@ -10,7 +10,7 @@
 
 	2. To run the program, the file Main_FEM.m must be executed.
 
-	3. The type of structure must be chosen correctly with the pop-up menu (TRUSS or PORTICO).
+	3. The type of structure must be chosen correctly with the pop-up menu (TRUSS or FRAME).
 	
 	4. A window will open with buttons to observe the results of displacements and local forces,
 	additionally there are buttons to plot the structure and to animate the deformations of the structure (a multiplying factor must be entered). 

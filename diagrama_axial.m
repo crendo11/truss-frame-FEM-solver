@@ -52,7 +52,7 @@ end
 plot(A(:,1),A(:,2),c_diagrama)
 xlabel('X(m)')
 ylabel('A(kN)')
-title('Diagrama de fuerza axial')
+title('Axial Force Diagram')
 hold on
 
 %% Grafica el elemento del color deseado con un espesor de linea mas grande
